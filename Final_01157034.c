@@ -135,7 +135,7 @@ void main (void)
 					case 6: 	DelayMs(10); SendStr("6\0"); city_code = 7; delay_ms(3000); 
 								break;  // 程蔼放
 					case 7: 	DelayMs(10); SendStr("7\0");  delay_ms(3000); 
-								break;  // 程蔼放
+								break;  // 穝
 					default: 	DelayMs(10); SendStr("0\0"); city_code = 1; delay_ms(3000); 
 								break;
 				}

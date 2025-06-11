@@ -165,7 +165,6 @@ def get_time(city_key):
         res = urequests.get(url)
         datetime_str = res.text.strip()
         print(f"{city_key} {get_time_city_dic[city_key]} 現在時間：{datetime_str}")
-        # 若要送給 8051 顯示，可考慮簡化後再送
         # uart.write(datetime_str.encode())  
         res.close()
         gc.collect()
